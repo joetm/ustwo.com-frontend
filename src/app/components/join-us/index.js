@@ -118,10 +118,10 @@ const PageJoinUs = React.createClass({
     });
 
     return (
-      <nav className="jobs-studio-tabs" ref="studioTabs">
+      <div className="jobs-studio-tabs" ref="studioTabs">
         {tabs}
         <div className="underline" style={studioSelectedBackgroundColor} ref="underline"></div>
-      </nav>
+      </div>
     );
   },
   getJobSectionRenderer(selectedStudioSlug) {
