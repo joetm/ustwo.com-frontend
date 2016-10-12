@@ -222,7 +222,6 @@ const PageEvents = React.createClass({
           onClick={this.onClickLoadMoreEvents}
           disabled={eventsPagination >= eventsPaginationTotal}
         />
-<<<<<<< HEAD
 		  </section>
       {this.renderArchivedEvents()}
       <LoadMoreButton
@@ -230,9 +229,6 @@ const PageEvents = React.createClass({
         onClick={this.onClickLoadMoreArchivedEvents}
         disabled={archivedEventsPagination >= archivedEventsPaginationTotal}
       />
-=======
-		  </section>
->>>>>>> Refactor tabs into new component
     </article>;
 	}
 });
